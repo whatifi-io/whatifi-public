@@ -1,0 +1,41 @@
+{
+  "generatedContexts": ["Cashflow"],
+  "relevantContexts": [],
+  "requiredData": [
+    {
+      "key": "value",
+      "display": "Value",
+      "type": "float64",
+      "example": "5000.00",
+      "canModify": true
+    },
+    {
+      "key": "currency",
+      "display": "Currency",
+      "type": "string",
+      "example": "USD",
+      "canModify": false
+    }
+  ],
+  "optionalData": [
+    {
+      "key": "taxable",
+      "display": "Taxable",
+      "type": "boolean",
+      "example": "To be included in income tax calculations? Default: true",
+      "canModify": false
+    }
+  ],
+  "aggregationQueries": [
+    {   
+      "query": {
+        "type": "Cashflow",
+        "subTypes": ["Income"],
+        "ids": ["self"]
+      },  
+      "contextKey": "value",
+      "saveTo": "value",
+      "collate": false
+    }   
+  ]
+}

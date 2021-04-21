@@ -1,0 +1,27 @@
+[
+  {
+    "nodeType": "Account",
+    "description": "account.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Bank Account",
+    "description": "account.json",
+    "definition": "bankAccount.json"
+  },
+  {
+    "nodeType": "Income",
+    "description": "income.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Expense",
+    "description": "expense.json",
+    "definition": "expense.json"
+  },
+  {
+    "nodeType": "Modifier",
+    "description": "modifier.json",
+    "definition": "internal"
+  }
+]

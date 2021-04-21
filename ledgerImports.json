@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Net Worth",
+    "ledgerQueries": [
+      {
+        "query": {
+          "type": "Balance",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "balance",
+        "saveTo": "balance",
+        "collate": false
+      }
+    ]
+  },
+  {
+    "name": "Scenario Events",
+    "ledgerQueries": [
+      {
+        "query": {
+          "type": "Event",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "event",
+        "saveTo": "event",
+        "collate": true
+      }
+    ]
+  }
+]
