@@ -23,5 +23,15 @@
     "nodeType": "Modifier",
     "description": "modifier.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Me",
+    "description": "me.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Person",
+    "description": "person.json",
+    "definition": "internal"
   }
 ]

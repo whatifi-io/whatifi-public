@@ -1,5 +1,5 @@
 {
-  "generatedContexts": ["Balance"],
+  "generatedContexts": ["Description", "Balance"],
   "relevantContexts": [
     {
       "type": "Cashflow",
