@@ -1,0 +1,26 @@
+{
+  "nodeType": "Loan",
+  "generatedContexts": ["Description", "Cashflow", "Debt"],
+  "relevantContexts": [],
+  "requiredData": [
+    {
+      "key": "loanInterestRate",
+      "display": "Annual Interest Rate",
+      "type": "float64",
+      "example": 0.02
+    },
+    {
+      "key": "loanAmount",
+      "display": "Loan Amount",
+      "type": "float64",
+      "example": 40000
+    },
+    {
+      "key": "numPayments",
+      "display": "Number of Payments",
+      "type": "int",
+      "example": 24
+    }
+  ],
+  "optionalData": []
+}

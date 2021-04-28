@@ -35,6 +35,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Loan",
+    "description": "loan.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "House",
     "description": "house.json",
     "definition": "internal"
