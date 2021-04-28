@@ -33,5 +33,10 @@
     "nodeType": "Person",
     "description": "person.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "House",
+    "description": "house.json",
+    "definition": "internal"
   }
 ]
