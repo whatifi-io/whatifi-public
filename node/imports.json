@@ -43,5 +43,10 @@
     "nodeType": "House",
     "description": "house.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Mortgage",
+    "description": "mortgage.json",
+    "definition": "internal"
   }
 ]
