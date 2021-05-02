@@ -1,0 +1,98 @@
+{
+  "8d547f6a-3eb9-4b13-bf24-991da22c7138": {
+    "nodeType":      "Me",
+    "birthYear":     "1999",
+    "birthMonth":    "January",
+    "country":       "Canada",
+    "state":         "BC",
+    "hasDisability": false,
+    "startDate":     "2020-01-01",
+    "cadence":       "one-time",
+    "id":            "8d547f6a-3eb9-4b13-bf24-991da22c7138"
+  },  
+  "7a4abb8b-0f17-448d-910d-7a0d815b0e8e": {
+    "nodeType":     "Modifier",
+    "typeToModify": "Income",
+    "keyToModify":  "value",
+    "idToModify":   "123bjhabsd",
+    "action":       "multiply",
+    "value":        1.10,
+    "startDate":    "2021-04-15",
+    "cadence":      "annually",
+    "id":           "7a4abb8b-0f17-448d-910d-7a0d815b0e8e"
+  },  
+  "e7efd2cf-e15a-459a-8d09-0999c74c9d9b": {
+    "nodeType":     "Modifier",
+    "typeToModify": "Mortgage",
+    "idToModify":   "06aea15e-e593-4dfa-ae92-237acff6f1ef",
+    "keyToModify":  "",
+    "action":       "lumpSumPayments",
+    "value":        10000.00,
+    "startDate":    "2022-06-06",
+    "cadence":      "one-time",
+    "id":           "e7efd2cf-e15a-459a-8d09-0999c74c9d9b"
+  },
+  "bc81fd4d-8e0b-49cb-961c-1ec4b46ee7ba": {
+    "nodeType":      "Income",
+    "subType":       "EmploymentIncome",
+    "value":         5000.00,
+    "currency":      "USD",
+    "startDate":     "2021-05-05",
+    "cadence":       "monthly",
+    "id":            "bc81fd4d-8e0b-49cb-961c-1ec4b46ee7ba",
+    "inflation":     true,
+    "inflationRate": 0.00,
+    "owner":         "8d547f6a-3eb9-4b13-bf24-991da22c7138"
+  },  
+  "4998cd16-369a-481e-8fe0-10f8c594e4dd": {
+    "nodeType":  "Expense",
+    "value":     -600.00,
+    "currency":  "USD",
+    "startDate": "2020-01-01",
+    "cadence":   "daily",
+    "id":        "4998cd16-369a-481e-8fe0-10f8c594e4dd"
+  },
+  "859ccdaa-14e1-4c73-b985-d1e2596aabcf": {
+    "nodeType":         "House",
+    "value":            200000.00,
+    "startDate":        "2020-01-01",
+    "cadence":          "monthly",
+    "address":          "1 Centennial Square, Victoria, BC V8W 1N9, Canada",
+    "city":             "Victoria",
+    "province":         "BC",
+    "country":          "Canada",
+    "primaryResidence": true,
+    "newlyBuilt":       false,
+    "inflation":        true,
+    "interestRate":     0.02,
+    "id":               "859ccdaa-14e1-4c73-b985-d1e2596aabcf"
+  },
+  "06aea15e-e593-4dfa-ae92-237acff6f1ef": {
+    "nodeType":  "Mortgage",
+    "cadence":   "monthly",
+    "startDate": "2020-01-01",
+    "id":        "06aea15e-e593-4dfa-ae92-237acff6f1ef",
+    "baseline":  false,
+    "isNew":     true,
+    "term":      3,  
+    "downpaymentData": {
+      "lastChangedDownpaymentProperty": "rate",
+      "value":                          0.0,
+      "downpaymentRate":                20.0
+    },  
+    "mortgageData": {
+      "cadence":            "monthly",
+      "rate":               3.25,
+      "amortizationPeriod": 10
+    }
+  },
+  "150fccc9-628f-4acb-83d4-046e89c2e1e8": {
+    "nodeType":     "Bank Account",
+    "balance":      100.00,
+    "currency":     "CAD",
+    "interestRate": 0.00,
+    "startDate":    "2020-01-01",
+    "cadence":      "daily",
+    "id":           "150fccc9-628f-4acb-83d4-046e89c2e1e8"
+  }  
+}
