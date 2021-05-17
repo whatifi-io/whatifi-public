@@ -86,6 +86,14 @@
       "amortizationPeriod": 10
     }
   },
+  "a9a6f72e-f12a-428f-b3cc-2ff7549f5c0c": {
+    "nodeType":  "IncomeTax",
+    "cadence":   "annually",
+    "owner":     "8d547f6a-3eb9-4b13-bf24-991da22c7138",
+    "province":  "British Columbia",
+    "id":        "a9a6f72e-f12a-428f-b3cc-2ff7549f5c0c",
+    "startDate": "2020-01-01"
+  },
   "150fccc9-628f-4acb-83d4-046e89c2e1e8": {
     "nodeType":     "Bank Account",
     "balance":      100.00,

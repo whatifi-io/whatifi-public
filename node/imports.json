@@ -48,5 +48,10 @@
     "nodeType": "Mortgage",
     "description": "mortgage.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "IncomeTax",
+    "description": "house.json",
+    "definition": "internal"
   }
 ]
