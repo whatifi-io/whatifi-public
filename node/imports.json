@@ -53,5 +53,10 @@
     "nodeType": "IncomeTax",
     "description": "house.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Rental Income",
+    "description": "rentalIncome.json",
+    "definition": "internal"
   }
 ]
