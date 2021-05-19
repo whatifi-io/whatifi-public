@@ -55,6 +55,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Closing Cost",
+    "description": "closingCost.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Rental Income",
     "description": "rentalIncome.json",
     "definition": "internal"

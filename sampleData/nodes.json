@@ -103,5 +103,22 @@
     "startDate":    "2020-01-01",
     "cadence":      "daily",
     "id":           "150fccc9-628f-4acb-83d4-046e89c2e1e8"
-  }  
+  },
+  "85cbf4f0-3a3c-4ff1-88e0-defb68de2a05": {
+    "nodeType":     "Closing Cost",
+    "interestRate": 0.00,
+    "id":           "85cbf4f0-3a3c-4ff1-88e0-defb68de2a05",
+    "inflation":        true,
+    "inflationRate": 0.00,
+    "value":      0,
+    "cadence":      "one-time",
+    "includePropertyEvalFee": true,
+    "propertyEvaluationFee": 1000,
+    "includeLandSurveyFee": true,
+    "landSurveyFee": 200,
+    "includeTitleInsurance": false,
+    "titleInsurance": 900,
+    "includeLegalCosts": true, 
+    "legalCosts": 800
+  }
 }
