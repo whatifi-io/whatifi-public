@@ -46,8 +46,9 @@
   },  
   "4998cd16-369a-481e-8fe0-10f8c594e4dd": {
     "nodeType":  "Expense",
-    "value":     -600.00,
-    "currency":  "USD",
+    "value":     600.00,
+    "inflation":     true,
+    "inflationRate": 0.00,
     "startDate": "2020-01-01",
     "cadence":   "daily",
     "id":        "4998cd16-369a-481e-8fe0-10f8c594e4dd"

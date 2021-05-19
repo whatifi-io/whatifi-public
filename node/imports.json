@@ -17,7 +17,7 @@
   {
     "nodeType": "Expense",
     "description": "expense.json",
-    "definition": "expense.json"
+    "definition": "internal"
   },
   {
     "nodeType": "Modifier",
