@@ -56,7 +56,7 @@
   "859ccdaa-14e1-4c73-b985-d1e2596aabcf": {
     "nodeType":         "House",
     "value":            200000.00,
-    "startDate":        "2020-01-01",
+    "startDate":        "2030-01-01",
     "cadence":          "monthly",
     "address":          "1 Centennial Square, Victoria, BC V8W 1N9, Canada",
     "city":             "Victoria",
@@ -120,6 +120,60 @@
     "titleInsurance": 900,
     "includeLegalCosts": true, 
     "legalCosts": 800
+  },
+  "d5eaa717-63cb-4b6a-ba52-43df42323a70": {
+    "nodeType":     "Home Maintenance",
+    "cadence":      "monthly",
+    "id":           "d5eaa717-63cb-4b6a-ba52-43df42323a70",
+    "houseId":      "859ccdaa-14e1-4c73-b985-d1e2596aabcf",
+    "inflation":     true,
+    "inflationRate": 0.00,
+    "value":         0,
+    "startDate":    "2020-01-01",
+    "budgetList": [
+      {
+        "title": "Plumbing",
+        "value": 40,
+        "selected": true,
+        "cadence": "monthly"
+    },
+    {
+        "title": "Home Exterior",
+        "value": 185,
+        "selected": false,
+        "cadence": "monthly"
+    },
+    {
+        "title": "Roof",
+        "value": 90,
+        "selected": true,
+        "cadence": "bi-weekly"
+    },
+    {
+        "title": "Foundation",
+        "value": 130,
+        "selected": true,
+        "cadence": "annually"
+    },
+    {
+        "title": "Electrical",
+        "value": 40,
+        "selected": false,
+        "cadence": "monthly"
+    },
+    {
+        "title": "HVAC",
+        "value": 55,
+        "selected": true,
+        "cadence": "monthly"
+    },
+    {
+        "title": "Drainage & Landscaping",
+        "value": 50,
+        "selected": false,
+        "cadence": "monthly"
+    }
+  ]
   },
   "721fe68c-d8ec-4034-b001-6eef393be8cc": {
     "nodeType": "Real Estate Fees",
