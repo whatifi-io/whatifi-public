@@ -63,5 +63,10 @@
     "nodeType": "Rental Income",
     "description": "rentalIncome.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Real Estate Fees",
+    "description": "realEstateFees.json",
+    "definition": "internal"
   }
 ]

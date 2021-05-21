@@ -120,5 +120,17 @@
     "titleInsurance": 900,
     "includeLegalCosts": true, 
     "legalCosts": 800
+  },
+  "721fe68c-d8ec-4034-b001-6eef393be8cc": {
+    "nodeType": "Real Estate Fees",
+    "id": "721fe68c-d8ec-4034-b001-6eef393be8cc",
+    "value": 0,
+    "cadence": "one-time",
+    "resalePrice": 1000000,
+    "enteredFeePercent": 5,
+    "enteredFeeAmount": 600,
+    "lastChangedFeeProperty": "Percent",
+    "inflation":     true,
+    "inflationRate": 0.00
   }
 }
