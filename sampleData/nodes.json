@@ -121,6 +121,16 @@
     "includeLegalCosts": true, 
     "legalCosts": 800
   },
+  "2cef9f4f-75ba-4e29-846d-cefa56f35e07": {
+    "nodeType":     "Unit Cost",
+    "id":           "2cef9f4f-75ba-4e29-846d-cefa56f35e07",
+    "value":        100,
+    "owner":         "8d547f6a-3eb9-4b13-bf24-991da22c7138",
+    "inflation":        true,
+    "inflationRate": 0.00,
+    "cadence":      "monthly",
+    "isExpense": true
+  },
   "d5eaa717-63cb-4b6a-ba52-43df42323a70": {
     "nodeType":     "Home Maintenance",
     "cadence":      "monthly",

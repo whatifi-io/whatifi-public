@@ -65,6 +65,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Unit Cost",
+    "description": "unitCost.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Home Maintenance",
     "description": "homeMaintenance.json",
     "definition": "internal"
