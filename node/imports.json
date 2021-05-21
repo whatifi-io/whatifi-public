@@ -55,6 +55,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Property Resale",
+    "description": "propertyResale.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Closing Cost",
     "description": "closingCost.json",
     "definition": "internal"

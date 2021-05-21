@@ -104,6 +104,21 @@
     "cadence":      "daily",
     "id":           "150fccc9-628f-4acb-83d4-046e89c2e1e8"
   },
+  "fe9aefba-bb09-48c4-81f6-103a0d686406": {
+    "nodeType":     "Property Resale",
+    "useCalculatedPrice": true,
+    "resalePrice":  1000.00,
+    "value":        0,
+    "closingCost":  100,
+    "interestRate": 0.00,
+    "inflation":    true,
+    "startDate":    "2021-01-01",
+    "cadence":      "monthly",
+    "inflationRate": 0.00,
+    "houseId":      "859ccdaa-14e1-4c73-b985-d1e2596aabcf",
+    "id":           "fe9aefba-bb09-48c4-81f6-103a0d686406",
+    "oneOccurence": true
+  },
   "85cbf4f0-3a3c-4ff1-88e0-defb68de2a05": {
     "nodeType":     "Closing Cost",
     "interestRate": 0.00,
