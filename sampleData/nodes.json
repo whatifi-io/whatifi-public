@@ -112,7 +112,7 @@
     "closingCost":  100,
     "interestRate": 0.00,
     "inflation":    true,
-    "startDate":    "2021-01-01",
+    "startDate":    "2030-01-01",
     "cadence":      "monthly",
     "inflationRate": 0.00,
     "houseId":      "859ccdaa-14e1-4c73-b985-d1e2596aabcf",
