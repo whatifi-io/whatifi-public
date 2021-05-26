@@ -211,5 +211,15 @@
     "lastChangedFeeProperty": "Percent",
     "inflation":     true,
     "inflationRate": 0.00
+  },
+  "968b7b41-b8c3-4284-9e66-04531b9ff408":{
+    "nodeType": "Property Transfer Tax",
+    "id": "968b7b41-b8c3-4284-9e66-04531b9ff408",
+    "cadence": "one-time",
+    "value": 0,
+    "inflation":     true,
+    "inflationRate": 0.00,
+    "foreignBuyer": false,
+    "firstTimeBuyer": true
   }
 }

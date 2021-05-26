@@ -60,6 +60,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Property Transfer Tax",
+    "description": "propertyTransferTax.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Closing Cost",
     "description": "closingCost.json",
     "definition": "internal"
