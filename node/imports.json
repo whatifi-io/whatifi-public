@@ -88,5 +88,10 @@
     "nodeType": "Real Estate Fees",
     "description": "realEstateFees.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Mortgage Insurance",
+    "description": "mortgageInsurance.json",
+    "definition": "internal"
   }
 ]
