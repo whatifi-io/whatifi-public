@@ -65,6 +65,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Property Value",
+    "description": "propertyValue.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Property Transfer Tax",
     "description": "propertyTransferTax.json",
     "definition": "internal"

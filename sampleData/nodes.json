@@ -68,6 +68,18 @@
     "interestRate":     0.02,
     "id":               "859ccdaa-14e1-4c73-b985-d1e2596aabcf"
   },
+  "d1900993-90f0-4442-9c70-fedee950ac6d": {
+    "id":               "d1900993-90f0-4442-9c70-fedee950ac6d",
+    "houseId":          "859ccdaa-14e1-4c73-b985-d1e2596aabcf",
+    "nodeType":         "Property Value",
+    "propertyValue":    123456,
+    "startDate":        "2030-01-01",
+    "inflation":        false,
+    "inflationRate":    0.00,
+    "value":            0,
+    "cadence":          "monthly",
+    "isPropertyRevalued": false
+  },
   "06aea15e-e593-4dfa-ae92-237acff6f1ef": {
     "nodeType":  "Mortgage",
     "cadence":   "monthly",
