@@ -55,6 +55,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Budget",
+    "description": "budget.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Property Resale",
     "description": "propertyResale.json",
     "definition": "internal"
