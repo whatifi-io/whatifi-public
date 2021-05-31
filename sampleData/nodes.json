@@ -87,6 +87,7 @@
     "id":        "06aea15e-e593-4dfa-ae92-237acff6f1ef",
     "baseline":  false,
     "isNew":     true,
+    "province": "",
     "term":      3,  
     "downpaymentData": {
       "lastChangedDownpaymentProperty": "rate",
@@ -233,5 +234,23 @@
     "inflationRate": 0.00,
     "foreignBuyer": false,
     "firstTimeBuyer": true
+  },
+  "fba67803-a337-4f6e-b66a-9351babec3be": {
+      "nodeType": "Renewal Refinance",
+      "id": "fba67803-a337-4f6e-b66a-9351babec3be",
+      "cadence": "monthly",
+      "value": 0,
+      "term": 5,
+      "selectedForm": "refinance",
+      "refinanceType": "Custom Value",
+      "customValue": 1000000,
+      "withdrawalType": "amount",
+      "amountWithdrawn": 105000,
+      "percentWithdrawn": 30,
+      "amortizationPeriod": 7,
+      "refinancingFees": 0,
+      "mortgageId": "06aea15e-e593-4dfa-ae92-237acff6f1ef",
+      "inflation":     true,
+      "inflationRate": 0.00
   }
 }

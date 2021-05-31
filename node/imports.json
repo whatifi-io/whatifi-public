@@ -85,6 +85,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Renewal Refinance",
+    "description": "renewalRefinance.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Unit Cost",
     "description": "unitCost.json",
     "definition": "internal"
