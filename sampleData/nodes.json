@@ -45,11 +45,12 @@
     "owner":         "8d547f6a-3eb9-4b13-bf24-991da22c7138"
   },  
   "4998cd16-369a-481e-8fe0-10f8c594e4dd": {
-    "nodeType":  "Expense",
+    "nodeType":  "Rent",
     "value":     600.00,
     "inflation":     true,
     "inflationRate": 0.00,
     "startDate": "2020-01-01",
+    "endDate": "2024-01-01",
     "cadence":   "daily",
     "id":        "4998cd16-369a-481e-8fe0-10f8c594e4dd"
   },

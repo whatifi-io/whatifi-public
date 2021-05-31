@@ -20,6 +20,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Rent",
+    "description": "rent.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Modifier",
     "description": "modifier.json",
     "definition": "internal"
