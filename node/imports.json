@@ -25,6 +25,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Downpayment",
+    "description": "downpayment.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Me",
     "description": "me.json",
     "definition": "internal"
