@@ -120,6 +120,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Employee",
+    "description": "employee.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Mortgage Insurance",
     "description": "mortgageInsurance.json",
     "definition": "internal"

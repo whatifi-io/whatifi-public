@@ -249,6 +249,25 @@
     "inflation":     true,
     "inflationRate": 0.00
   },
+  "246457c4-19fc-4fe5-8459-11c2d50ee6a0": {
+    "nodeType": "Employee",
+    "id": "246457c4-19fc-4fe5-8459-11c2d50ee6a0",
+    "cadence": "monthly",
+    "payType": "salary",
+    "rate": 23.00,
+    "averageHours": 40,
+    "salary": 100000,
+    "noEmployees": 3,
+    "startDate": "2022-01-01",
+    "endDate": "2023-12-31",
+    "inflation": false,
+    "inflationRate": 0.02,
+    "province": "QC",
+    "address": "1001 Pl. Jean-Paul-Riopelle, Montréal, QC H2Z 2B3, Canada",
+    "includeOvertime": true,
+    "includeEI": true,
+    "includePension": true
+  },
   "968b7b41-b8c3-4284-9e66-04531b9ff408":{
     "nodeType": "Property Transfer Tax",
     "id": "968b7b41-b8c3-4284-9e66-04531b9ff408",
@@ -304,4 +323,5 @@
       "spouseStart": "2022-03-01",
       "spouseEnd": "2023-12-01"
   }
+
 }
