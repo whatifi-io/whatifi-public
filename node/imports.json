@@ -25,6 +25,11 @@
     "definition": "internal"
   },
   {
+    "nodeType": "Maternity",
+    "description": "maternity.json",
+    "definition": "internal"
+  },
+  {
     "nodeType": "Modifier",
     "description": "modifier.json",
     "definition": "internal"
