@@ -9,7 +9,17 @@
           "nodeIds": []
         },
         "contextKey": "balance",
-        "saveTo": "balance",
+        "saveTo": "value",
+        "collate": false
+      },
+      {
+        "query": {
+          "type": "Balance",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "value",
+        "saveTo": "value",
         "collate": false
       }
     ]
