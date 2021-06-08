@@ -43,12 +43,34 @@
     "cadence":      "one-time",
     "id":           "e7efd2cf-e15a-459a-8d09-0999c74c9d9b"
   },
+  "1ffe8fe4-6857-4c10-a3f2-36e6b3741764": {
+    "nodeType":     "Modifier",
+    "typeToModify": "Income",
+    "idToModify":   "bc81fd4d-8e0b-49cb-961c-1ec4b46ee7ba",
+    "keyToModify":  "value",
+    "action":       "retire",
+    "value":        0,
+    "startDate":    "2025-01-02",
+    "cadence":      "one-time",
+    "id":           "1ffe8fe4-6857-4c10-a3f2-36e6b3741764"
+  },
+  "2d5e962c-e9de-4abd-9670-51c18f6bc97e": {
+    "nodeType": "Modifier",
+    "typeToModify": "Income",
+    "idToModify": "3214c695-5038-4f89-ad50-917e4e46f75d",
+    "keyToModify": "retirementDate",
+    "action": "setRetirementDate",
+    "value": "2025-01-02",
+    "startDate": "2025-01-02",
+    "cadence": "one-time",
+    "id": "2d5e962c-e9de-4abd-9670-51c18f6bc97e"
+  },
   "bc81fd4d-8e0b-49cb-961c-1ec4b46ee7ba": {
     "nodeType":      "Income",
     "subType":       "EmploymentIncome",
-    "value":         5000.00,
+    "value":         15000.00,
     "currency":      "USD",
-    "startDate":     "2021-05-05",
+    "startDate":     "2019-05-05",
     "cadence":       "monthly",
     "id":            "bc81fd4d-8e0b-49cb-961c-1ec4b46ee7ba",
     "inflation":     true,
@@ -307,6 +329,50 @@
       "inflation":     true,
       "inflationRate": 0.00
   },
+  "3214c695-5038-4f89-ad50-917e4e46f75d": {
+    "id": "3214c695-5038-4f89-ad50-917e4e46f75d",
+    "cadence": "daily",
+    "nodeType": "Pension",
+    "inflationRate": 0.019,
+    "startAge": 19,
+    "pensionCalculationType": "actuals",
+    "contributionType": "Both",
+    "pensionableRate": 31,
+    "cppRate": 0.12,
+    "qppRate": 0.32,
+    "actualsData": [
+      {
+        "year": "2019",
+        "age": 18,
+        "actualIncome": 40340
+      },
+      {
+        "year": "2020",
+        "age": 19,
+        "actualIncome": 25934
+      },
+      {
+        "year": "2021",
+        "age": 20,
+        "actualIncome": 35293
+      }
+    ],
+    "showSettings": true,
+    "showSettingsData": [
+      {
+        "id": 0,
+        "title": "Berlin",
+        "start": "2019",
+        "end": "2019"
+      }
+    ],
+    "retirementDate": "2038-01-01",
+    "personID": "me",
+    "country": null,
+    "state": null,
+    "birthYear": "1970",
+    "birthMonth": 10
+  },
   "c944c7a5-022a-49f9-abab-80fde9ad1d78": {
       "nodeType": "Maternity",
       "id": "c944c7a5-022a-49f9-abab-80fde9ad1d78e",
@@ -322,6 +388,11 @@
       "personEnd": "2023-09-01",
       "spouseStart": "2022-03-01",
       "spouseEnd": "2023-12-01"
+  },
+  "e355615e-fad5-4d84-96d1-d4f7f0ee9da3": {
+    "nodeType": "Retirement",
+    "id": "e355615e-fad5-4d84-96d1-d4f7f0ee9da3",
+    "startDate": "2025-01-02"
   }
 
 }

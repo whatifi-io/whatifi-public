@@ -128,5 +128,15 @@
     "nodeType": "Mortgage Insurance",
     "description": "mortgageInsurance.json",
     "definition": "internal"
+  },
+  {
+    "nodeType": "Pension",
+    "description": "pension.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Retirement",
+    "description": "retirement.json",
+    "definition": "internal"
   }
 ]
