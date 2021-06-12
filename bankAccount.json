@@ -1,0 +1,74 @@
+{
+  "NodeType": "Bank Account",
+  "GeneratedContexts": [
+    "Description",
+    "Balance"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Cashflow",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "balance",
+      "Display": "Balance",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of income; eg. 5000.00",
+      "CanModify": true
+    },
+    {
+      "Key": "currency",
+      "Display": "Currency",
+      "Type": "string",
+      "Values": [],
+      "Example": "Currency of income; eg. CAD",
+      "CanModify": false
+    },
+    {
+      "Key": "interestRate",
+      "Display": "Interest Rate",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Interest rate of account; eg. 5% interest is 0.05",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [
+    {
+      "Key": "accountName",
+      "Display": "Account Name",
+      "Type": "string",
+      "Values": [],
+      "Example": "Name of account; eg. TD Bank Account",
+      "CanModify": false
+    },
+    {
+      "Key": "accountType",
+      "Display": "Account Type",
+      "Type": "string",
+      "Values": [],
+      "Example": "Account Type; eg. Savings, chequings, etc.",
+      "CanModify": false
+    }
+  ],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Balance",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "balance",
+      "SaveTo": "value",
+      "Collate": false
+    }
+  ]
+}
