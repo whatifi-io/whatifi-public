@@ -1,0 +1,33 @@
+{
+  "NodeType": "Renewal Refinance",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Mortgage",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    },
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of renewal/refinance; eg. 500000.00",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

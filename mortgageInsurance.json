@@ -1,0 +1,33 @@
+{
+  "NodeType": "Mortgage Insurance",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Mortgage",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    },
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Cost of mortgage insurance; eg. 5000.00",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

@@ -1,0 +1,33 @@
+{
+  "NodeType": "Closing Cost",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Property Resale",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    },
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Total closing cost; eg. 5000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

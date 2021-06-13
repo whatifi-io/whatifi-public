@@ -1,0 +1,33 @@
+{
+  "NodeType": "Real Estate Fees",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Property Resale",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    },
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Total real estate fees; eg. 50000.00",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

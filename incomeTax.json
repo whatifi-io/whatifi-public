@@ -1,0 +1,42 @@
+{
+  "NodeType": "Income Tax",
+  "GeneratedContexts": [
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Cashflow",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "owner",
+      "Display": "Owner ID",
+      "Type": "string",
+      "Values": [],
+      "Example": "ID of Income Tax owner",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Income Tax Paid"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    }
+  ]
+}

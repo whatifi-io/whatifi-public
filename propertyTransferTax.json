@@ -1,0 +1,33 @@
+{
+  "NodeType": "Property Transfer Tax",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Me",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    },
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Transfer tax cost; eg. -5000.00",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

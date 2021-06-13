@@ -1,0 +1,27 @@
+{
+  "NodeType": "Property Value",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "House",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of property; eg. 500000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

@@ -1,0 +1,62 @@
+{
+  "NodeType": "Person",
+  "GeneratedContexts": [
+    "Description"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "birthYear",
+      "Display": "Birth Year",
+      "Type": "int",
+      "Values": [],
+      "Example": "Birth year; eg. 1992",
+      "CanModify": false
+    },
+    {
+      "Key": "birthMonth",
+      "Display": "Birth Month",
+      "Type": "string",
+      "Values": [],
+      "Example": "Birth month; eg. February",
+      "CanModify": false
+    },
+    {
+      "Key": "country",
+      "Display": "Country of Residence",
+      "Type": "string",
+      "Values": [],
+      "Example": "Country of residence, eg. Canada",
+      "CanModify": true
+    },
+    {
+      "Key": "state",
+      "Display": "State/Province",
+      "Type": "string",
+      "Values": [],
+      "Example": "State/Province of residence, eg. British Columbia",
+      "CanModify": true
+    },
+    {
+      "Key": "birthYear",
+      "Display": "Birth Year",
+      "Type": "int",
+      "Values": [],
+      "Example": "Birth year; eg. 1992",
+      "CanModify": false
+    },
+    {
+      "Key": "hasDisability",
+      "Display": "Has Disability?",
+      "Type": "boolean",
+      "Values": [
+        "true",
+        "false"
+      ],
+      "Example": "False",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

@@ -1,0 +1,20 @@
+{
+  "NodeType": "Employee",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Cost of employee; eg. 5000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

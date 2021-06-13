@@ -1,0 +1,104 @@
+{
+  "NodeType": "Mortgage",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow",
+    "Debt"
+  ],
+  "RelevantContexts": [
+    {
+      "Type": "Asset Sale",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
+  "RequiredData": [
+    {
+      "Key": "baseline",
+      "Display": "Is in Baseline",
+      "Type": "boolean",
+      "Values": [],
+      "Example": "",
+      "CanModify": false
+    },
+    {
+      "Key": "isNew",
+      "Display": "Is New Mortgage",
+      "Type": "bool",
+      "Values": [],
+      "Example": "",
+      "CanModify": false
+    },
+    {
+      "Key": "term",
+      "Display": "Mortgage Term",
+      "Type": "int",
+      "Values": [],
+      "Example": "Term of the mortgage; eg. 3",
+      "CanModify": false
+    },
+    {
+      "Key": "downpaymentData",
+      "Display": "_internal",
+      "Type": "object",
+      "Values": [],
+      "Example": "",
+      "CanModify": false
+    },
+    {
+      "Key": "mortgageData",
+      "Display": "_internal",
+      "Type": "object",
+      "Values": [],
+      "Example": "",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Mortgage Principal Payment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    },
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Mortgage Interest Payment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    },
+    {
+      "Query": {
+        "Type": "Debt",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "NodeType": "Unit Cost",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Unit cost; eg. 5000.00",
+      "CanModify": true
+    },
+    {
+      "Key": "subType",
+      "Display": "Unit Type",
+      "Type": "string",
+      "Values": [],
+      "Example": "Unit type; eg. Employment Inco,e",
+      "CanModify": false
+    },
+    {
+      "Key": "isExpense",
+      "Display": "Is Expense",
+      "Type": "boolean",
+      "Values": [],
+      "Example": "Is the unit an expense; eg. false",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Income"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    }
+  ]
+}

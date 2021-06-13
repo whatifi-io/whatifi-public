@@ -1,0 +1,37 @@
+{
+  "NodeType": "Loan",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow",
+    "Debt"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "loanInterestRate",
+      "Display": "Annual Interest Rate",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Loan interest rate; eg. 0.02 -\u003e 2%",
+      "CanModify": true
+    },
+    {
+      "Key": "loanAmount",
+      "Display": "Loan Amount",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of loan; eg. 5000.00",
+      "CanModify": true
+    },
+    {
+      "Key": "numPayments",
+      "Display": "Number of Payments",
+      "Type": "int",
+      "Values": [],
+      "Example": "Number of payments for the loan; eg. 24",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}
