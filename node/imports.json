@@ -1,0 +1,142 @@
+[
+  {
+    "nodeType": "Bank Account Generic",
+    "description": "bankAccount.json",
+    "definition": "bankAccount.json"
+  },
+  {
+    "nodeType": "Bank Account",
+    "description": "bankAccount.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Income",
+    "description": "income.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Expense",
+    "description": "expense.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Rent",
+    "description": "rent.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Maternity",
+    "description": "maternity.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Modifier",
+    "description": "modifier.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Downpayment",
+    "description": "downpayment.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Me",
+    "description": "me.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Person",
+    "description": "person.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Loan",
+    "description": "loan.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "House",
+    "description": "house.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Mortgage",
+    "description": "mortgage.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "IncomeTax",
+    "description": "house.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Budget",
+    "description": "budget.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Property Resale",
+    "description": "propertyResale.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Property Value",
+    "description": "propertyValue.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Property Transfer Tax",
+    "description": "propertyTransferTax.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Closing Cost",
+    "description": "closingCost.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Rental Income",
+    "description": "rentalIncome.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Renewal Refinance",
+    "description": "renewalRefinance.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Unit Cost",
+    "description": "unitCost.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Home Maintenance",
+    "description": "homeMaintenance.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Real Estate Fees",
+    "description": "realEstateFees.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Employee",
+    "description": "employee.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Mortgage Insurance",
+    "description": "mortgageInsurance.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Pension",
+    "description": "pension.json",
+    "definition": "internal"
+  },
+  {
+    "nodeType": "Retirement",
+    "description": "retirement.json",
+    "definition": "internal"
+  }
+]

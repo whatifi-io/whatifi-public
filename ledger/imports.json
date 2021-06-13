@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Net Worth",
+    "ledgerQueries": [
+      {
+        "query": {
+          "type": "Balance",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "balance",
+        "saveTo": "value",
+        "collate": false
+      },
+      {
+        "query": {
+          "type": "Balance",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "value",
+        "saveTo": "value",
+        "collate": false
+      }
+    ]
+  },
+  {
+    "name": "Scenario Events",
+    "ledgerQueries": [
+      {
+        "query": {
+          "type": "Event",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "event",
+        "saveTo": "event",
+        "collate": true
+      }
+    ]
+  },
+  {
+    "name": "Cashflow",
+    "ledgerQueries": [
+      {
+        "query": {
+          "type": "Cashflow",
+          "subTypes": [],
+          "nodeIds": []
+        },
+        "contextKey": "value",
+        "saveTo": "value",
+        "collate": false
+      }
+    ]
+  }
+]

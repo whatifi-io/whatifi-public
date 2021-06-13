@@ -1,0 +1,35 @@
+{
+  "nodeType": "IncomeTax",
+  "generatedContexts": ["Cashflow"],
+  "relevantContexts": [{ "type": "Cashflow" }],
+  "requiredData": [
+    {
+      "key": "owner",
+      "display": "Person ID",
+      "type": "string",
+      "example": "a1dfdce1-a1b7-4888-bc72-78b5cc180f74",
+      "canModify": false
+    },
+    {
+      "key": "province",
+      "display": "Province",
+      "type": "string",
+      "example": "British Columbia",
+      "canModify": true
+    }
+  ],
+  "optionalData": [],
+  "aggregationQueries": [
+    {
+      "query": {
+        "type": "Cashflow",
+        "subTypes": ["Income Tax Paid"],
+        "ids": ["self"]
+      },
+      "contextKey": "value",
+      "saveTo": "value",
+      "collate": false,
+      "includeInProcess": true
+    }
+  ]
+}

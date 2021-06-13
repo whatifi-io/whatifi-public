@@ -1,0 +1,61 @@
+{
+  "generatedContexts": ["Description", "Balance"],
+  "relevantContexts": [
+    {
+      "type": "Cashflow",
+      "subTypes": [],
+      "ids": []
+    }
+  ],
+  "requiredData": [
+    {
+      "key": "balance",
+      "display": "Balance",
+      "type": "float64",
+      "example": "5000.00",
+      "canModify": true
+    },
+    {
+      "key": "currency",
+      "display": "Currency",
+      "type": "string",
+      "example": "USD",
+      "canModify": true
+    },
+    {
+      "key": "interestRate",
+      "display": "Interest Rate",
+      "type": "float64",
+      "example": "0.05",
+      "canModify": true
+    }
+  ],
+  "optionalData": [
+    {
+      "key": "accountName",
+      "display": "Account Name",
+      "type": "string",
+      "example": "TD Savings Account",
+      "canModify": false
+    },
+    {
+      "key": "accountType",
+      "display": "Account Type",
+      "type": "string",
+      "example": "Savings, chequings, etc.",
+      "canModify": false
+    }
+  ],
+  "aggregationQueries": [
+    {
+      "query": {
+        "type": "Balance",
+        "subTypes": [],
+        "ids": ["self"]
+      },
+      "contextKey": "balance",
+      "saveTo": "value",
+      "collate": false
+    }
+  ]
+}

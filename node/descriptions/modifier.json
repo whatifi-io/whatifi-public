@@ -1,0 +1,44 @@
+{
+  "generatedContexts": ["Description", "Modifier"],
+  "relevantContexts": [],
+  "requiredData": [
+    {
+      "key": "value",
+      "display": "Value",
+      "type": "any",
+      "example": "value applied by action",
+      "canModify": false
+    },
+    {
+      "key": "keyToModify",
+      "display": "Key",
+      "type": "string",
+      "example": "Value to modify",
+      "canModify": false
+    },
+    {
+      "key": "typeToModify",
+      "display": "Node Type",
+      "type": "string",
+      "example": "Node type to modify",
+      "canModify": false
+    },
+    {
+      "key": "action",
+      "display": "Action",
+      "type": "string",
+      "example": "valid values: 'multiply', 'add', 'set'",
+      "canModify": false
+    }
+  ],
+  "optionalData": [
+    {
+      "key": "idToModify",
+      "display": "Node ID",
+      "type": "string",
+      "example": "Node ID to modify",
+      "canModify": false
+    }
+  ],
+  "aggregationQueries": []
+}

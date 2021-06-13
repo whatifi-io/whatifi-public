@@ -1,0 +1,40 @@
+{
+  "generatedContexts": ["Description", "Cashflow"],
+  "relevantContexts": [],
+  "requiredData": [
+    {
+      "key": "value",
+      "display": "Value",
+      "type": "float64",
+      "example": "5000.00",
+      "canModify": true
+    },
+    {
+      "key": "currency",
+      "display": "Currency",
+      "type": "string",
+      "example": "USD",
+      "canModify": false
+    },
+    {
+      "key": "subType",
+      "display": "Income Source",
+      "type": "string",
+      "example": "Employment Income",
+      "canModify": false
+    }
+  ],
+  "optionalData": [],
+  "aggregationQueries": [
+    {
+      "query": {
+        "type": "Cashflow",
+        "subTypes": ["Income"],
+        "ids": ["self"]
+      },
+      "contextKey": "value",
+      "saveTo": "value",
+      "collate": false
+    }
+  ]
+}
