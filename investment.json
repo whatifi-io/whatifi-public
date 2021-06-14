@@ -1,0 +1,22 @@
+{
+  "NodeType": "Investment",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow",
+    "Asset",
+    "RRSP"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Depositing 1000 into TFSA",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}
