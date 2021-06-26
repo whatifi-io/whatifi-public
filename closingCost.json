@@ -29,5 +29,21 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Closing Costs"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false
+    }
+  ]
 }

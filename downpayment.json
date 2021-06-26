@@ -16,5 +16,21 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Downpayment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    }
+  ]
 }

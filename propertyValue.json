@@ -23,5 +23,21 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Property Value"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false
+    }
+  ]
 }

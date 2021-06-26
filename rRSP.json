@@ -18,5 +18,21 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "RRSP",
+        "SubTypes": [
+          "RRSP"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "rrsp",
+      "SaveTo": "rrsp",
+      "Collate": false
+    }
+  ]
 }

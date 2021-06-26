@@ -18,5 +18,51 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Investment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false
+    },
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Investment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false
+    },
+    {
+      "Query": {
+        "Type": "RRSP",
+        "SubTypes": [
+          "Investment"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "rrsp",
+      "SaveTo": "rrsp",
+      "Collate": false
+    }
+  ]
 }

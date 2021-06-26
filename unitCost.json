@@ -37,7 +37,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Income"
+          "Unit Cost"
         ],
         "Ids": [
           "$self"
