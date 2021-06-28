@@ -19,7 +19,7 @@
       "Display": "Unit Type",
       "Type": "string",
       "Values": [],
-      "Example": "Unit type; eg. Employment Inco,e",
+      "Example": "Unit type; eg. Employment Income",
       "CanModify": false
     },
     {
