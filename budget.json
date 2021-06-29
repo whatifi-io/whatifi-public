@@ -4,21 +4,14 @@
     "Description",
     "Cashflow"
   ],
-  "RelevantContexts": [
-    {
-      "Type": "Income",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    }
-  ],
+  "RelevantContexts": [],
   "RequiredData": [
     {
       "Key": "value",
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of maternity leave benefit; eg. 20000.00",
+      "Example": "Value of budget; eg. 5000.00",
       "CanModify": true
     }
   ],
@@ -28,7 +21,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Maternity"
+          "Budget"
         ],
         "Ids": [
           "$self"
