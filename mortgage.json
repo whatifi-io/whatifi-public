@@ -70,7 +70,8 @@
       },
       "ContextKey": "value",
       "SaveTo": "value",
-      "Collate": false
+      "Collate": false,
+      "KeepLatest": false
     },
     {
       "Query": {
@@ -85,7 +86,8 @@
       },
       "ContextKey": "value",
       "SaveTo": "value",
-      "Collate": false
+      "Collate": false,
+      "KeepLatest": false
     },
     {
       "Query": {
@@ -98,7 +100,8 @@
       },
       "ContextKey": "value",
       "SaveTo": "value",
-      "Collate": false
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

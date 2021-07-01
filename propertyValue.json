@@ -37,7 +37,8 @@
       },
       "ContextKey": "asset",
       "SaveTo": "asset",
-      "Collate": false
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

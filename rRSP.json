@@ -32,7 +32,8 @@
       },
       "ContextKey": "rrsp",
       "SaveTo": "rrsp",
-      "Collate": false
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

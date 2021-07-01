@@ -59,16 +59,19 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Balance",
-        "SubTypes": [],
+        "Type": "Asset",
+        "SubTypes": [
+          "Bank Account"
+        ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "balance",
-      "SaveTo": "value",
-      "Collate": false
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }
