@@ -22,9 +22,7 @@
     {
       "Query": {
         "Type": "RRSP",
-        "SubTypes": [
-          "RRSP"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
