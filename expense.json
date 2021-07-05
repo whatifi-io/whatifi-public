@@ -16,5 +16,38 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Expense"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Expense"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false,
+      "KeepLatest": false
+    }
+  ]
 }
