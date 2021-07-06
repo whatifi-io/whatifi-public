@@ -38,6 +38,8 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
+          "Debt Interest Payment",
+          "Debt Principle Payment",
           "Loan"
         ],
         "Ids": [
