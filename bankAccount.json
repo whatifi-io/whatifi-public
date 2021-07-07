@@ -61,7 +61,7 @@
       "Query": {
         "Type": "Asset",
         "SubTypes": [
-          "Bank Account"
+          "Account"
         ],
         "Ids": [
           "$self"

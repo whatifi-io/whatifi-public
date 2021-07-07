@@ -21,7 +21,7 @@
       "Query": {
         "Type": "Asset",
         "SubTypes": [
-          "House"
+          "Real Estate"
         ],
         "Ids": [
           "$self"
