@@ -76,17 +76,17 @@
     },
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Asset",
         "SubTypes": [
-          "Mortgage Interest Payment"
+          "Mortgage Principal Payment"
         ],
         "Ids": [
           "$self"
         ],
         "Filters": null
       },
-      "ContextKey": "value",
-      "SaveTo": "value",
+      "ContextKey": "asset",
+      "SaveTo": "asset",
       "Collate": false,
       "KeepLatest": false
     }
