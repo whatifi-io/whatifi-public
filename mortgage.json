@@ -61,7 +61,8 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Mortgage Principal Payment"
+          "Mortgage Principal Payment",
+          "Mortgage Interest Payment"
         ],
         "Ids": [
           "$self"
@@ -79,20 +80,6 @@
         "SubTypes": [
           "Mortgage Interest Payment"
         ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": null
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Debt",
-        "SubTypes": [],
         "Ids": [
           "$self"
         ],
