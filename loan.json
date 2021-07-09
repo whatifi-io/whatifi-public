@@ -51,6 +51,24 @@
       "SaveTo": "value",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Debt Interest Payment",
+          "Debt Principle Payment",
+          "Loan"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }
