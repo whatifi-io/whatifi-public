@@ -1,0 +1,37 @@
+{
+  "NodeType": "Tuition",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Cost of Tuition; eg. 5000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Tuition"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    }
+  ]
+}
