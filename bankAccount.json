@@ -72,6 +72,70 @@
       "SaveTo": "asset",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RRSP",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "rrsp",
+      "SaveTo": "rrsp",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RDSP",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "rdsp",
+      "SaveTo": "rdsp",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RESP",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "resp",
+      "SaveTo": "resp",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }
