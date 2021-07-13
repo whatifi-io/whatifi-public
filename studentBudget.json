@@ -1,5 +1,5 @@
 {
-  "NodeType": "Budget",
+  "NodeType": "Student Budget",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
@@ -11,7 +11,7 @@
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of budget; eg. 5000.00",
+      "Example": "Value of Student Budget; eg. 5000.00",
       "CanModify": true
     }
   ],
@@ -21,7 +21,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Budget"
+          "Student Budget"
         ],
         "Ids": [
           "$self"
