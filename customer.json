@@ -1,0 +1,19 @@
+{
+  "NodeType": "Customer",
+  "GeneratedContexts": [
+    "Customer"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Number of customer",
+      "Type": "float64",
+      "Values": null,
+      "Example": "51",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}

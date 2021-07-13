@@ -1,0 +1,56 @@
+{
+  "NodeType": "Customer Growth",
+  "GeneratedContexts": [
+    "Customer"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "startGrowth",
+      "Display": "Initial number of new customers per month",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Initial new customers per month: eg: 21",
+      "CanModify": false
+    },
+    {
+      "Key": "value",
+      "Display": "Monthly Percent Growth",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Percentage growth of customers per month: eg: 0.05",
+      "CanModify": false
+    },
+    {
+      "Key": "specificPercentages",
+      "Display": "Specific Percentages",
+      "Type": "map[string]float64",
+      "Values": [],
+      "Example": "{ '2019-10': 0.05, '2020-05': 0.10, '2022-01': 0.08 }",
+      "CanModify": false
+    },
+    {
+      "Key": "subType",
+      "Display": "Growth Type",
+      "Type": "string",
+      "Values": [
+        "percent",
+        "interpolate",
+        "step"
+      ],
+      "Example": "Type of growth (step denotes a step-function)",
+      "CanModify": false
+    }
+  ],
+  "OptionalData": [
+    {
+      "Key": "maxRate",
+      "Display": "Maximum Monthly Growth Percentage",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Upper bound: eg: 0.20, null",
+      "CanModify": true
+    }
+  ],
+  "AggregationQueries": []
+}
