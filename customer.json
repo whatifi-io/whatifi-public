@@ -15,5 +15,22 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Customer",
+        "SubTypes": [
+          "Customer"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "customer",
+      "SaveTo": "customer",
+      "Collate": false,
+      "KeepLatest": false
+    }
+  ]
 }

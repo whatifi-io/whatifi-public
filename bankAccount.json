@@ -91,6 +91,22 @@
     },
     {
       "Query": {
+        "Type": "Free Cash Flow",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "free-cash-flow",
+      "SaveTo": "free-cash-flow",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
         "Type": "RRSP",
         "SubTypes": [
           "Account"
@@ -134,6 +150,22 @@
       },
       "ContextKey": "resp",
       "SaveTo": "resp",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Liabilities",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "liabilities",
+      "SaveTo": "liabilities",
       "Collate": false,
       "KeepLatest": false
     }

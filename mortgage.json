@@ -89,6 +89,20 @@
       "SaveTo": "asset",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Liabilities",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": null
+      },
+      "ContextKey": "liabilities",
+      "SaveTo": "liabilities",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }
