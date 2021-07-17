@@ -16,5 +16,22 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": []
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Rent"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    }
+  ]
 }

@@ -1,24 +1,17 @@
 {
-  "NodeType": "Budget",
+  "NodeType": "Debt Repayment",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Liabilities"
   ],
-  "RelevantContexts": [
-    {
-      "Type": "Income",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    }
-  ],
+  "RelevantContexts": [],
   "RequiredData": [
     {
       "Key": "value",
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of maternity leave benefit; eg. 20000.00",
+      "Example": "Cost of Debt Repayment; eg. 2000.00",
       "CanModify": true
     }
   ],
@@ -26,17 +19,17 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Liabilities",
         "SubTypes": [
-          "Maternity"
+          "Debt Repayment"
         ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "value",
-      "SaveTo": "value",
+      "ContextKey": "liabilities",
+      "SaveTo": "liabilities",
       "Collate": false,
       "KeepLatest": false
     }
