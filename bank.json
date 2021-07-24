@@ -1,5 +1,5 @@
 {
-  "NodeType": "Bank Account",
+  "NodeType": "Bank",
   "GeneratedContexts": [
     "Description",
     "Balance"
@@ -44,7 +44,7 @@
       "Display": "Account Name",
       "Type": "string",
       "Values": [],
-      "Example": "Name of account; eg. TD Bank Account",
+      "Example": "Name of account; eg. TD Bank",
       "CanModify": false
     },
     {
@@ -166,6 +166,22 @@
       },
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Investment",
+        "SubTypes": [
+          "Account"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "investment",
+      "SaveTo": "investment",
       "Collate": false,
       "KeepLatest": false
     }
