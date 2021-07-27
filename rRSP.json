@@ -32,6 +32,20 @@
       "SaveTo": "rrsp",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

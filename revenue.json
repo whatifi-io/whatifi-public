@@ -1,27 +1,28 @@
 {
-  "NodeType": "Rental Income",
+  "NodeType": "Revenue",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
   ],
-  "RelevantContexts": [],
-  "RequiredData": [
+  "RelevantContexts": [
     {
-      "Key": "value",
-      "Display": "Value",
-      "Type": "float64",
-      "Values": [],
-      "Example": "Value of rental income; eg. 5000.00",
-      "CanModify": true
+      "Type": "Description",
+      "SubTypes": [
+        "Customer",
+        "Unit Cost"
+      ],
+      "Ids": [],
+      "Filters": {}
     }
   ],
+  "RequiredData": [],
   "OptionalData": [],
   "AggregationQueries": [
     {
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Rental Income"
+          "Revenue"
         ],
         "Ids": [
           "$self"
