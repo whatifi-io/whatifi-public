@@ -1,5 +1,5 @@
 {
-  "NodeType": "Income Tax",
+  "NodeType": "IncomeTax",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
@@ -28,7 +28,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Income Tax"
+          "IncomeTax"
         ],
         "Ids": [
           "$self"
