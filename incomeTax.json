@@ -2,7 +2,8 @@
   "NodeType": "IncomeTax",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Cashflow",
+    "Income Tax"
   ],
   "RelevantContexts": [
     {
@@ -37,6 +38,22 @@
       },
       "ContextKey": "value",
       "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Income Tax",
+        "SubTypes": [
+          "IncomeTax"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "income-tax",
+      "SaveTo": "income-tax",
       "Collate": false,
       "KeepLatest": false
     }
