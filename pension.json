@@ -6,22 +6,15 @@
   ],
   "RelevantContexts": [
     {
-      "Type": "Income",
-      "SubTypes": [],
+      "Type": "Cashflow",
+      "SubTypes": [
+        "Income"
+      ],
       "Ids": [],
       "Filters": null
     }
   ],
-  "RequiredData": [
-    {
-      "Key": "value",
-      "Display": "Value",
-      "Type": "float64",
-      "Values": [],
-      "Example": "Value of pension; eg. 5000.00",
-      "CanModify": true
-    }
-  ],
+  "RequiredData": [],
   "OptionalData": [],
   "AggregationQueries": [
     {
