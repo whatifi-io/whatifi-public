@@ -1,0 +1,173 @@
+{
+  "NodeType": "Debit Credit",
+  "GeneratedContexts": [
+    "Description",
+    "Cashflow",
+    "Investments",
+    "Asset",
+    "Liabilities",
+    "RRSP",
+    "RDSP",
+    "RESP",
+    "Free Cash Flow",
+    "Income Tax"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of income; eg. 5000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Cashflow",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Investments",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "investment",
+      "SaveTo": "investment",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Asset",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "asset",
+      "SaveTo": "asset",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Liabilities",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "liabilities",
+      "SaveTo": "liabilities",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RRSP",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "RRSP",
+      "SaveTo": "RRSP",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RDSP",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "RDSP",
+      "SaveTo": "RDSP",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RESP",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "RESP",
+      "SaveTo": "RESP",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Free Cash Flow",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "free-cash-flow",
+      "SaveTo": "fcf",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Income Tax",
+        "SubTypes": [
+          "Debit Credit"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "income-tax",
+      "SaveTo": "income-tax",
+      "Collate": false,
+      "KeepLatest": false
+    }
+  ]
+}
