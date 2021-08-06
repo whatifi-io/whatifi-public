@@ -38,8 +38,6 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Debt Interest Payment",
-          "Debt Principle Payment",
           "Loan"
         ],
         "Ids": [
@@ -56,8 +54,6 @@
       "Query": {
         "Type": "Asset",
         "SubTypes": [
-          "Debt Interest Payment",
-          "Debt Principle Payment",
           "Loan"
         ],
         "Ids": [
@@ -74,8 +70,6 @@
       "Query": {
         "Type": "Liabilities",
         "SubTypes": [
-          "Debt Interest Payment",
-          "Debt Principle Payment",
           "Loan"
         ],
         "Ids": [
@@ -85,6 +79,38 @@
       },
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Principal Remaining",
+        "SubTypes": [
+          "Loan"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "principal-remaining",
+      "SaveTo": "principal-remaining",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Interest Paid",
+        "SubTypes": [
+          "Loan"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "interest-paid",
+      "SaveTo": "interest-paid",
       "Collate": false,
       "KeepLatest": false
     }

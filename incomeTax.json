@@ -2,7 +2,6 @@
   "NodeType": "IncomeTax",
   "GeneratedContexts": [
     "Description",
-    "Cashflow",
     "Income Tax"
   ],
   "RelevantContexts": [
