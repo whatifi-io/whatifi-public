@@ -3,7 +3,9 @@
   "GeneratedContexts": [
     "Description",
     "Cashflow",
-    "Debt"
+    "Debt",
+    "Liabilities",
+    "Principal Remaining"
   ],
   "RelevantContexts": [
     {
@@ -61,8 +63,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Mortgage Principal Payment",
-          "Mortgage Interest Payment"
+          "Loan"
         ],
         "Ids": [
           "$self"
@@ -78,7 +79,7 @@
       "Query": {
         "Type": "Asset",
         "SubTypes": [
-          "Mortgage Principal Payment"
+          "Loan"
         ],
         "Ids": [
           "$self"
@@ -93,14 +94,48 @@
     {
       "Query": {
         "Type": "Liabilities",
-        "SubTypes": [],
+        "SubTypes": [
+          "Loan"
+        ],
         "Ids": [
           "$self"
         ],
-        "Filters": null
+        "Filters": {}
       },
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Principal Remaining",
+        "SubTypes": [
+          "Loan"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "principal-remaining",
+      "SaveTo": "principal-remaining",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Interest Paid",
+        "SubTypes": [
+          "Loan"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "interest-paid",
+      "SaveTo": "interest-paid",
       "Collate": false,
       "KeepLatest": false
     }
