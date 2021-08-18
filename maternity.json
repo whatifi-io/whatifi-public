@@ -1,29 +1,34 @@
 {
-  "NodeType": "Pension",
+  "NodeType": "Maternity",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
   ],
   "RelevantContexts": [
     {
-      "Type": "Cashflow",
-      "SubTypes": [
-        "Income"
-      ],
+      "Type": "Income",
+      "SubTypes": [],
       "Ids": [],
       "Filters": null
     }
   ],
-  "RequiredData": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of maternity leave benefit; eg. 20000.00",
+      "CanModify": true
+    }
+  ],
   "OptionalData": [],
   "AggregationQueries": [
     {
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Pension Premium",
-          "Pension Income",
-          "Pension"
+          "Maternity"
         ],
         "Ids": [
           "$self"
