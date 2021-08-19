@@ -3,16 +3,7 @@
   "GeneratedContexts": [
     "Customer"
   ],
-  "RelevantContexts": [
-    {
-      "Type": "Description",
-      "SubTypes": [
-        "Customer"
-      ],
-      "Ids": [],
-      "Filters": {}
-    }
-  ],
+  "RelevantContexts": [],
   "RequiredData": [
     {
       "Key": "startGrowth",
@@ -61,22 +52,5 @@
       "CanModify": true
     }
   ],
-  "AggregationQueries": [
-    {
-      "Query": {
-        "Type": "Customer",
-        "SubTypes": [
-          "Customer Growth"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "customer",
-      "SaveTo": "customer",
-      "Collate": false,
-      "KeepLatest": false
-    }
-  ]
+  "AggregationQueries": []
 }

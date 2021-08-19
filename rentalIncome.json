@@ -2,7 +2,7 @@
   "NodeType": "Rental Income",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Free Cash Flow"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -19,17 +19,17 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Free Cash Flow",
         "SubTypes": [
-          "Rental Income"
+          "Account"
         ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "value",
-      "SaveTo": "value",
+      "ContextKey": "free-cash-flow",
+      "SaveTo": "free-cash-flow",
       "Collate": false,
       "KeepLatest": false
     }
