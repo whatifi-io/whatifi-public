@@ -1,8 +1,8 @@
 {
-  "NodeType": "Budget",
+  "NodeType": "Grant",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Free Cash Flow"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -11,7 +11,7 @@
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of budget; eg. 5000.00",
+      "Example": "Value of rental income; eg. 5000.00",
       "CanModify": true
     }
   ],
@@ -19,17 +19,17 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Free Cash Flow",
         "SubTypes": [
-          "Budget"
+          "Account"
         ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "value",
-      "SaveTo": "value",
+      "ContextKey": "free-cash-flow",
+      "SaveTo": "free-cash-flow",
       "Collate": false,
       "KeepLatest": false
     }

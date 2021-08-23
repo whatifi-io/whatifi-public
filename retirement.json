@@ -16,22 +16,5 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": [
-    {
-      "Query": {
-        "Type": "Cashflow",
-        "SubTypes": [
-          "Retirement"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false
-    }
-  ]
+  "AggregationQueries": []
 }

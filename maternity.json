@@ -1,17 +1,24 @@
 {
-  "NodeType": "Budget",
+  "NodeType": "Maternity",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
   ],
-  "RelevantContexts": [],
+  "RelevantContexts": [
+    {
+      "Type": "Income",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": null
+    }
+  ],
   "RequiredData": [
     {
       "Key": "value",
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of budget; eg. 5000.00",
+      "Example": "Value of maternity leave benefit; eg. 20000.00",
       "CanModify": true
     }
   ],
@@ -21,7 +28,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Budget"
+          "Maternity"
         ],
         "Ids": [
           "$self"

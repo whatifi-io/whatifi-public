@@ -21,6 +21,8 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
+          "Pension Premium",
+          "Pension Income",
           "Pension"
         ],
         "Ids": [
