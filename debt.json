@@ -19,7 +19,7 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Liabilities",
+        "Type": "Liabilities-Cum",
         "SubTypes": [
           "Debt"
         ],
@@ -28,8 +28,8 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "liabilities",
-      "SaveTo": "liabilities",
+      "ContextKey": "cum-liabilities-only",
+      "SaveTo": "cum-liabilities-only",
       "Collate": false,
       "KeepLatest": false
     }
