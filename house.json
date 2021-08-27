@@ -32,6 +32,22 @@
       "SaveTo": "asset",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Asset-Cum",
+        "SubTypes": [
+          "House"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "cum-asset-only",
+      "SaveTo": "cum-asset-only",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

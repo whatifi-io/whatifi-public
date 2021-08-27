@@ -66,6 +66,38 @@
       "SaveTo": "rrsp",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "RRSP-Cum",
+        "SubTypes": [
+          "RRSP"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "cum-rrsp-only",
+      "SaveTo": "cum-rrsp-only",
+      "Collate": false,
+      "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Cashflow-Cum",
+        "SubTypes": [
+          "RRSP"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "cum-value-only",
+      "SaveTo": "cum-value-only",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }

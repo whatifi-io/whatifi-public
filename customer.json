@@ -31,6 +31,22 @@
       "SaveTo": "customer",
       "Collate": false,
       "KeepLatest": false
+    },
+    {
+      "Query": {
+        "Type": "Customer-Cum",
+        "SubTypes": [
+          "Customer"
+        ],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "cum-customer-only",
+      "SaveTo": "cum-customer-only",
+      "Collate": false,
+      "KeepLatest": false
     }
   ]
 }
