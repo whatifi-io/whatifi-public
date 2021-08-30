@@ -1,5 +1,5 @@
 {
-  "NodeType": "Customer Growth",
+  "NodeType": "Customer Churn",
   "GeneratedContexts": [
     "Customer"
   ],
@@ -15,19 +15,11 @@
   ],
   "RequiredData": [
     {
-      "Key": "startGrowth",
-      "Display": "Initial number of new customers per month",
-      "Type": "float64",
-      "Values": [],
-      "Example": "Initial new customers per month: eg: 21",
-      "CanModify": false
-    },
-    {
       "Key": "value",
-      "Display": "Monthly Percent Growth",
+      "Display": "Monthly Customer Churn Percentage",
       "Type": "float64",
       "Values": [],
-      "Example": "Percentage growth of customers per month: eg: 0.05",
+      "Example": "Customer Churn per month: eg: 0.05",
       "CanModify": false
     },
     {
@@ -40,21 +32,21 @@
     },
     {
       "Key": "subType",
-      "Display": "Growth Type",
+      "Display": "Churn Type",
       "Type": "string",
       "Values": [
         "percent",
         "interpolate",
         "step"
       ],
-      "Example": "Type of growth (step denotes a step-function)",
+      "Example": "Type of churn (step denotes a step-function)",
       "CanModify": false
     }
   ],
   "OptionalData": [
     {
       "Key": "maxRate",
-      "Display": "Maximum Monthly Growth Percentage",
+      "Display": "Maximum Monthly Churn Percentage",
       "Type": "float64",
       "Values": [],
       "Example": "Upper bound: eg: 0.20, null",
@@ -66,7 +58,7 @@
       "Query": {
         "Type": "Customer",
         "SubTypes": [
-          "Customer Growth"
+          "Customer Churn"
         ],
         "Ids": [
           "$self"
@@ -80,17 +72,17 @@
     },
     {
       "Query": {
-        "Type": "Customer Growth",
+        "Type": "Customer Churn",
         "SubTypes": [
-          "Customer Growth"
+          "Customer Churn"
         ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "growth",
-      "SaveTo": "growth",
+      "ContextKey": "churn",
+      "SaveTo": "churn",
       "Collate": false,
       "KeepLatest": false
     }
