@@ -59,7 +59,7 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Asset",
+        "Type": "Asset-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -68,14 +68,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "asset",
-      "SaveTo": "asset",
+      "ContextKey": "cum-asset-only",
+      "SaveTo": "cum-asset-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Cashflow-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -84,14 +84,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "value",
-      "SaveTo": "value",
+      "ContextKey": "cum-value-only",
+      "SaveTo": "cum-value-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "Free Cash Flow",
+        "Type": "Free Cash Flow-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -100,14 +100,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "free-cash-flow",
-      "SaveTo": "free-cash-flow",
+      "ContextKey": "cum-free-cash-flow-only",
+      "SaveTo": "cum-free-cash-flow-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "RRSP",
+        "Type": "RRSP-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -116,14 +116,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "rrsp",
-      "SaveTo": "rrsp",
+      "ContextKey": "cum-rrsp-only",
+      "SaveTo": "cum-rrsp-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "RDSP",
+        "Type": "RDSP-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -132,14 +132,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "rdsp",
-      "SaveTo": "rdsp",
+      "ContextKey": "cum-rdsp-only",
+      "SaveTo": "cum-rdsp-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "RESP",
+        "Type": "RESP-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -148,14 +148,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "resp",
-      "SaveTo": "resp",
+      "ContextKey": "cum-resp-only",
+      "SaveTo": "cum-resp-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "Liabilities",
+        "Type": "Liabilities-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -164,14 +164,14 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "liabilities",
-      "SaveTo": "liabilities",
+      "ContextKey": "cum-liabilities-only",
+      "SaveTo": "cum-liabilities-only",
       "Collate": false,
       "KeepLatest": false
     },
     {
       "Query": {
-        "Type": "Investment",
+        "Type": "Investment-Cum",
         "SubTypes": [
           "Account"
         ],
@@ -180,8 +180,8 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "investment",
-      "SaveTo": "investment",
+      "ContextKey": "cum-investment-only",
+      "SaveTo": "cum-investment-only",
       "Collate": false,
       "KeepLatest": false
     }
