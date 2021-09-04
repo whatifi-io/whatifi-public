@@ -20,7 +20,7 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Revenue",
+        "Type": "Cashflow",
         "SubTypes": [
           "Revenue"
         ],
@@ -29,8 +29,8 @@
         ],
         "Filters": {}
       },
-      "ContextKey": "revenue",
-      "SaveTo": "revenue",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
       "KeepLatest": false
     }
