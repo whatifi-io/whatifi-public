@@ -31,7 +31,8 @@
       "ContextKey": "asset",
       "SaveTo": "asset",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -47,7 +48,8 @@
       "ContextKey": "cum-asset-only",
       "SaveTo": "cum-asset-only",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

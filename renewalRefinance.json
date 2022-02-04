@@ -44,7 +44,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -60,7 +61,8 @@
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

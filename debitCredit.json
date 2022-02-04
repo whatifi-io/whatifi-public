@@ -2,15 +2,11 @@
   "NodeType": "Debit Credit",
   "GeneratedContexts": [
     "Description",
-    "Cashflow",
-    "Investments",
-    "Asset",
+    "Assets",
     "Liabilities",
-    "RRSP",
-    "RDSP",
-    "RESP",
-    "Free Cash Flow",
-    "Income Tax"
+    "Equity",
+    "Income",
+    "Expenses"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -27,10 +23,43 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
-        "SubTypes": [
-          "Debit Credit"
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
         ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Liabilities",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
@@ -39,135 +68,53 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
-        "Type": "Investments",
-        "SubTypes": [
-          "Debit Credit"
-        ],
+        "Type": "Equity",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "investment",
-      "SaveTo": "investment",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
-        "Type": "Asset",
-        "SubTypes": [
-          "Debit Credit"
-        ],
+        "Type": "Income",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "asset",
-      "SaveTo": "asset",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
-        "Type": "Liabilities",
-        "SubTypes": [
-          "Debit Credit"
-        ],
+        "Type": "Expenses",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "liabilities",
-      "SaveTo": "liabilities",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RRSP",
-        "SubTypes": [
-          "Debit Credit"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "RRSP",
-      "SaveTo": "RRSP",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RDSP",
-        "SubTypes": [
-          "Debit Credit"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "RDSP",
-      "SaveTo": "RDSP",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RESP",
-        "SubTypes": [
-          "Debit Credit"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "RESP",
-      "SaveTo": "RESP",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Free Cash Flow",
-        "SubTypes": [
-          "Debit Credit"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "free-cash-flow",
-      "SaveTo": "fcf",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Income Tax",
-        "SubTypes": [
-          "Debit Credit"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "income-tax",
-      "SaveTo": "income-tax",
-      "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

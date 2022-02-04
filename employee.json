@@ -2,7 +2,8 @@
   "NodeType": "Employee",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Expenses",
+    "Assets"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -19,19 +20,57 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
-        "SubTypes": [
-          "Employee"
-        ],
+        "Type": "Expenses",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
-        "Filters": {}
+        "Filters": {
+          "__Cost of Goods Sold": true,
+          "__Cost of Labor": true
+        }
       },
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Employment Expenses": true,
+          "__Operating Expenses": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

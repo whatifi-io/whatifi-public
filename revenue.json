@@ -2,7 +2,9 @@
   "NodeType": "Revenue",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Assets",
+    "Income",
+    "Expenses"
   ],
   "RelevantContexts": [
     {
@@ -13,6 +15,12 @@
       ],
       "Ids": [],
       "Filters": {}
+    },
+    {
+      "Type": "Customer",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": {}
     }
   ],
   "RequiredData": [],
@@ -20,9 +28,42 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Income",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
         "SubTypes": [
-          "Revenue"
+          "Cost of Goods Sold"
         ],
         "Ids": [
           "$self"
@@ -32,7 +73,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

@@ -1,30 +1,17 @@
 {
-  "NodeType": "Real Estate Fees",
+  "NodeType": "Graduation",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
   ],
-  "RelevantContexts": [
-    {
-      "Type": "Property Resale",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    },
-    {
-      "Type": "House",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    }
-  ],
+  "RelevantContexts": [],
   "RequiredData": [
     {
       "Key": "value",
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Total real estate fees; eg. 50000.00",
+      "Example": "0.00",
       "CanModify": false
     }
   ],
@@ -34,7 +21,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Real Estate Fees"
+          "Graduation"
         ],
         "Ids": [
           "$self"

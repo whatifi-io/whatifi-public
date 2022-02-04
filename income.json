@@ -2,7 +2,8 @@
   "NodeType": "Income",
   "GeneratedContexts": [
     "Description",
-    "Cashflow"
+    "Assets",
+    "Income"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -55,10 +56,26 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Cashflow",
-        "SubTypes": [
-          "Income"
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
         ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Income",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
@@ -67,7 +84,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

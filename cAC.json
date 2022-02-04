@@ -1,33 +1,37 @@
 {
-  "NodeType": "Debt Repayment",
+  "NodeType": "CAC",
   "GeneratedContexts": [
     "Description",
-    "Liabilities",
+    "Expenses",
     "Assets"
   ],
-  "RelevantContexts": [],
-  "RequiredData": [
+  "RelevantContexts": [
     {
-      "Key": "value",
-      "Display": "Value",
-      "Type": "float64",
-      "Values": [],
-      "Example": "Cost of Debt Repayment; eg. 2000.00",
-      "CanModify": true
+      "Type": "Description",
+      "SubTypes": [
+        "Customer"
+      ],
+      "Ids": [],
+      "Filters": {}
+    },
+    {
+      "Type": "Customer",
+      "SubTypes": [],
+      "Ids": [],
+      "Filters": {}
     }
   ],
+  "RequiredData": [],
   "OptionalData": [],
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Liabilities",
+        "Type": "Expenses",
         "SubTypes": [],
         "Ids": [
           "$self"
         ],
-        "Filters": {
-          "__Non-Current Liabilities": true
-        }
+        "Filters": {}
       },
       "ContextKey": "value",
       "SaveTo": "value",

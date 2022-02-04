@@ -19,34 +19,17 @@
     {
       "Query": {
         "Type": "Customer",
-        "SubTypes": [
-          "Customer"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "customer",
-      "SaveTo": "customer",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Customer-Cum",
-        "SubTypes": [
-          "Customer"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "cum-customer-only",
-      "SaveTo": "cum-customer-only",
-      "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

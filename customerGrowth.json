@@ -1,7 +1,8 @@
 {
   "NodeType": "Customer Growth",
   "GeneratedContexts": [
-    "Customer"
+    "Customer",
+    "Customer Growth"
   ],
   "RelevantContexts": [
     {
@@ -65,34 +66,32 @@
     {
       "Query": {
         "Type": "Customer",
-        "SubTypes": [
-          "Customer Growth"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "customer",
-      "SaveTo": "customer",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
         "Type": "Customer Growth",
-        "SubTypes": [
-          "Customer Growth"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "growth",
-      "SaveTo": "growth",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

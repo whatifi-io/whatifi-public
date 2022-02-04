@@ -63,7 +63,9 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Loan"
+          "Mortgage First",
+          "Mortgage Interest",
+          "Mortgage Principal"
         ],
         "Ids": [
           "$self"
@@ -73,7 +75,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -89,13 +92,15 @@
       "ContextKey": "asset",
       "SaveTo": "asset",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
         "Type": "Liabilities",
         "SubTypes": [
-          "Loan"
+          "Mortgage First",
+          "Mortgage Liabilities"
         ],
         "Ids": [
           "$self"
@@ -105,13 +110,15 @@
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
         "Type": "Principal Remaining",
         "SubTypes": [
-          "Loan"
+          "Mortgage First",
+          "Mortgage Principal"
         ],
         "Ids": [
           "$self"
@@ -121,13 +128,14 @@
       "ContextKey": "principal-remaining",
       "SaveTo": "principal-remaining",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
         "Type": "Interest Paid",
         "SubTypes": [
-          "Loan"
+          "Mortgage Interest"
         ],
         "Ids": [
           "$self"
@@ -137,7 +145,8 @@
       "ContextKey": "interest-paid",
       "SaveTo": "interest-paid",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

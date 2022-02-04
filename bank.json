@@ -2,7 +2,8 @@
   "NodeType": "Bank",
   "GeneratedContexts": [
     "Description",
-    "Balance"
+    "Assets",
+    "Liabilities"
   ],
   "RelevantContexts": [
     {
@@ -59,26 +60,83 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Asset",
-        "SubTypes": [
-          "Account"
-        ],
+        "Type": "Assets",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
-        "Filters": {}
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Paypal": true
+        }
       },
-      "ContextKey": "asset",
-      "SaveTo": "asset",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
-        "Type": "Cashflow",
-        "SubTypes": [
-          "Account"
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
         ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Stripe": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Paypal": null,
+          "__Stripe": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Liabilities",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
@@ -87,103 +145,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Free Cash Flow",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "free-cash-flow",
-      "SaveTo": "free-cash-flow",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RRSP",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "rrsp",
-      "SaveTo": "rrsp",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RDSP",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "rdsp",
-      "SaveTo": "rdsp",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "RESP",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "resp",
-      "SaveTo": "resp",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Liabilities",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "liabilities",
-      "SaveTo": "liabilities",
-      "Collate": false,
-      "KeepLatest": false
-    },
-    {
-      "Query": {
-        "Type": "Investment",
-        "SubTypes": [
-          "Account"
-        ],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "investment",
-      "SaveTo": "investment",
-      "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

@@ -31,7 +31,8 @@
       "ContextKey": "free-cash-flow",
       "SaveTo": "free-cash-flow",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

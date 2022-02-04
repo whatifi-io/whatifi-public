@@ -48,7 +48,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -64,7 +65,8 @@
       "ContextKey": "asset",
       "SaveTo": "asset",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -80,7 +82,8 @@
       "ContextKey": "liabilities",
       "SaveTo": "liabilities",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -96,7 +99,8 @@
       "ContextKey": "principal-remaining",
       "SaveTo": "principal-remaining",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -112,7 +116,8 @@
       "ContextKey": "interest-paid",
       "SaveTo": "interest-paid",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

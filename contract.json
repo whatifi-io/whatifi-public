@@ -1,40 +1,66 @@
 {
-  "NodeType": "Loan",
+  "NodeType": "Contract",
   "GeneratedContexts": [
     "Description",
     "Assets",
-    "Liabilities",
-    "Expenses"
+    "Income"
   ],
   "RelevantContexts": [],
   "RequiredData": [
     {
-      "Key": "loanInterestRate",
-      "Display": "Annual Interest Rate",
+      "Key": "value",
+      "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Loan interest rate; eg. 0.02 -\u003e 2%",
+      "Example": "Value of income; eg. 5000.00",
       "CanModify": true
     },
     {
-      "Key": "loanAmount",
-      "Display": "Loan Amount",
-      "Type": "float64",
+      "Key": "currency",
+      "Display": "Currency",
+      "Type": "string",
       "Values": [],
-      "Example": "Value of loan; eg. 5000.00",
-      "CanModify": true
-    },
-    {
-      "Key": "numPayments",
-      "Display": "Number of Payments",
-      "Type": "int",
-      "Values": [],
-      "Example": "Number of payments for the loan; eg. 24",
+      "Example": "Currency of income; eg. CAD",
       "CanModify": false
     }
   ],
-  "OptionalData": [],
+  "OptionalData": [
+    {
+      "Key": "country",
+      "Display": "Country",
+      "Type": "string",
+      "Values": [],
+      "Example": "Income country of origin; eg. Canada",
+      "CanModify": true
+    },
+    {
+      "Key": "state",
+      "Display": "State/Province",
+      "Type": "string",
+      "Values": [],
+      "Example": "Income state/province of origin; eg. British Columbia",
+      "CanModify": true
+    }
+  ],
   "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Accounts Receivable": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
     {
       "Query": {
         "Type": "Assets",
@@ -55,53 +81,15 @@
     },
     {
       "Query": {
-        "Type": "Liabilities",
+        "Type": "Income",
         "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Non-Current Liabilities": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Interest Paid": true,
-          "__Other Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Principal Remaining",
-        "SubTypes": [
-          "Loan First",
-          "Loan Principal"
-        ],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "principal-remaining",
-      "SaveTo": "principal-remaining",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
       "KeepLatest": false,
       "Multiplier": 0

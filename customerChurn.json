@@ -1,7 +1,8 @@
 {
   "NodeType": "Customer Churn",
   "GeneratedContexts": [
-    "Customer"
+    "Customer",
+    "Customer Churn"
   ],
   "RelevantContexts": [
     {
@@ -57,34 +58,32 @@
     {
       "Query": {
         "Type": "Customer",
-        "SubTypes": [
-          "Customer Churn"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "customer",
-      "SaveTo": "customer",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
         "Type": "Customer Churn",
-        "SubTypes": [
-          "Customer Churn"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {}
       },
-      "ContextKey": "churn",
-      "SaveTo": "churn",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

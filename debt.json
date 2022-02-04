@@ -19,19 +19,20 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Liabilities-Cum",
-        "SubTypes": [
-          "Debt"
-        ],
+        "Type": "Liabilities",
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
-        "Filters": {}
+        "Filters": {
+          "__Non-Current Liabilities": true
+        }
       },
-      "ContextKey": "cum-liabilities-only",
-      "SaveTo": "cum-liabilities-only",
+      "ContextKey": "value",
+      "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

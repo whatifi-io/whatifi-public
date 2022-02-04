@@ -1,31 +1,18 @@
 {
-  "NodeType": "Real Estate Fees",
+  "NodeType": "Condo Fee",
   "GeneratedContexts": [
     "Description",
     "Cashflow"
   ],
-  "RelevantContexts": [
-    {
-      "Type": "Property Resale",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    },
-    {
-      "Type": "House",
-      "SubTypes": [],
-      "Ids": [],
-      "Filters": null
-    }
-  ],
+  "RelevantContexts": [],
   "RequiredData": [
     {
       "Key": "value",
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Total real estate fees; eg. 50000.00",
-      "CanModify": false
+      "Example": "Cost of condo fee; eg. 5000.00",
+      "CanModify": true
     }
   ],
   "OptionalData": [],
@@ -34,7 +21,7 @@
       "Query": {
         "Type": "Cashflow",
         "SubTypes": [
-          "Real Estate Fees"
+          "Condo Fee"
         ],
         "Ids": [
           "$self"

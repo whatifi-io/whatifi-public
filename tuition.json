@@ -11,7 +11,7 @@
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Cost of Tuition; eg. 5000.00",
+      "Example": "Cost of Tuition; eg. 4999.00",
       "CanModify": true
     }
   ],
@@ -31,7 +31,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }

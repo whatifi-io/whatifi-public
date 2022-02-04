@@ -33,7 +33,8 @@
       "ContextKey": "value",
       "SaveTo": "value",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -49,7 +50,8 @@
       "ContextKey": "asset",
       "SaveTo": "asset",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -65,7 +67,8 @@
       "ContextKey": "rrsp",
       "SaveTo": "rrsp",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -81,7 +84,8 @@
       "ContextKey": "cum-rrsp-only",
       "SaveTo": "cum-rrsp-only",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     },
     {
       "Query": {
@@ -97,7 +101,8 @@
       "ContextKey": "cum-value-only",
       "SaveTo": "cum-value-only",
       "Collate": false,
-      "KeepLatest": false
+      "KeepLatest": false,
+      "Multiplier": 0
     }
   ]
 }
