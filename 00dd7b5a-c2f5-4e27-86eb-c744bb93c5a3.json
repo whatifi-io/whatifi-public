@@ -1,12 +1,9 @@
 {
-  "NodeType": "Debit Credit",
+  "NodeType": "00dd7b5a-c2f5-4e27-86eb-c744bb93c5a3",
   "GeneratedContexts": [
     "Description",
     "Assets",
-    "Liabilities",
-    "Equity",
-    "Income",
-    "Expenses"
+    "Income"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -17,10 +14,53 @@
       "Values": [],
       "Example": "Value of income; eg. 5000.00",
       "CanModify": true
+    },
+    {
+      "Key": "currency",
+      "Display": "Currency",
+      "Type": "string",
+      "Values": [],
+      "Example": "Currency of income; eg. CAD",
+      "CanModify": false
     }
   ],
-  "OptionalData": [],
+  "OptionalData": [
+    {
+      "Key": "country",
+      "Display": "Country",
+      "Type": "string",
+      "Values": [],
+      "Example": "Income country of origin; eg. Canada",
+      "CanModify": true
+    },
+    {
+      "Key": "state",
+      "Display": "State/Province",
+      "Type": "string",
+      "Values": [],
+      "Example": "Income state/province of origin; eg. British Columbia",
+      "CanModify": true
+    }
+  ],
   "AggregationQueries": [
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Accounts Receivable": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
     {
       "Query": {
         "Type": "Assets",
@@ -41,69 +81,7 @@
     },
     {
       "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cash": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Liabilities",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Equity",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
         "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
         "SubTypes": [],
         "Ids": [
           "$self"

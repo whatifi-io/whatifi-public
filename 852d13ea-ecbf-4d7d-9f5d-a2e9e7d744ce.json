@@ -1,5 +1,5 @@
 {
-  "NodeType": "CAC",
+  "NodeType": "852d13ea-ecbf-4d7d-9f5d-a2e9e7d744ce",
   "GeneratedContexts": [
     "Description",
     "Expenses",
@@ -9,13 +9,13 @@
     {
       "Type": "Description",
       "SubTypes": [
-        "Customer"
+        "2aa289fa-a0c6-4beb-8cec-234ebe938b9a"
       ],
       "Ids": [],
       "Filters": {}
     },
     {
-      "Type": "Customer",
+      "Type": "2aa289fa-a0c6-4beb-8cec-234ebe938b9a",
       "SubTypes": [],
       "Ids": [],
       "Filters": {}

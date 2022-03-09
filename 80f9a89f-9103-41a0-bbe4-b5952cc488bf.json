@@ -1,5 +1,5 @@
 {
-  "NodeType": "Income",
+  "NodeType": "80f9a89f-9103-41a0-bbe4-b5952cc488bf",
   "GeneratedContexts": [
     "Description",
     "Assets",
@@ -74,7 +74,7 @@
     },
     {
       "Query": {
-        "Type": "Income",
+        "Type": "80f9a89f-9103-41a0-bbe4-b5952cc488bf",
         "SubTypes": [],
         "Ids": [
           "$self"

@@ -1,9 +1,9 @@
 {
-  "NodeType": "Contract",
+  "NodeType": "89d1bc58-96ec-4dba-a256-55541dabb4dc",
   "GeneratedContexts": [
     "Description",
-    "Assets",
-    "Income"
+    "Expenses",
+    "Assets"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -12,47 +12,40 @@
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Value of income; eg. 5000.00",
-      "CanModify": true
-    },
-    {
-      "Key": "currency",
-      "Display": "Currency",
-      "Type": "string",
-      "Values": [],
-      "Example": "Currency of income; eg. CAD",
-      "CanModify": false
-    }
-  ],
-  "OptionalData": [
-    {
-      "Key": "country",
-      "Display": "Country",
-      "Type": "string",
-      "Values": [],
-      "Example": "Income country of origin; eg. Canada",
-      "CanModify": true
-    },
-    {
-      "Key": "state",
-      "Display": "State/Province",
-      "Type": "string",
-      "Values": [],
-      "Example": "Income state/province of origin; eg. British Columbia",
+      "Example": "Cost of employee; eg. 5000.00",
       "CanModify": true
     }
   ],
+  "OptionalData": [],
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Assets",
+        "Type": "Expenses",
         "SubTypes": [],
         "Ids": [
           "$self"
         ],
         "Filters": {
-          "__Accounts Receivable": true,
-          "__Current Assets": true
+          "__Cost of Goods Sold": true,
+          "__Cost of Labor": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Employment Expenses": true,
+          "__Operating Expenses": true
         }
       },
       "ContextKey": "value",
@@ -72,21 +65,6 @@
           "__Cash": true,
           "__Current Assets": true
         }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
       },
       "ContextKey": "value",
       "SaveTo": "value",

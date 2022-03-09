@@ -1,5 +1,5 @@
 {
-  "NodeType": "Employee",
+  "NodeType": "c948e1e2-acac-4f8c-b241-92a16d4528b7",
   "GeneratedContexts": [
     "Description",
     "Expenses",
@@ -12,7 +12,7 @@
       "Display": "Value",
       "Type": "float64",
       "Values": [],
-      "Example": "Cost of employee; eg. 5000.00",
+      "Example": "Cost of expense; eg. 5000.00",
       "CanModify": true
     }
   ],
@@ -25,28 +25,7 @@
         "Ids": [
           "$self"
         ],
-        "Filters": {
-          "__Cost of Goods Sold": true,
-          "__Cost of Labor": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Employment Expenses": true,
-          "__Operating Expenses": true
-        }
+        "Filters": {}
       },
       "ContextKey": "value",
       "SaveTo": "value",

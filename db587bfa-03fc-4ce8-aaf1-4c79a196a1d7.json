@@ -1,9 +1,11 @@
 {
-  "NodeType": "Debt Repayment",
+  "NodeType": "db587bfa-03fc-4ce8-aaf1-4c79a196a1d7",
   "GeneratedContexts": [
     "Description",
     "Liabilities",
-    "Assets"
+    "Assets",
+    "Expenses",
+    "Interest Paid"
   ],
   "RelevantContexts": [],
   "RequiredData": [
@@ -45,6 +47,24 @@
         "Filters": {
           "__Cash": true,
           "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Interest Paid": true,
+          "__Other Expenses": true
         }
       },
       "ContextKey": "value",

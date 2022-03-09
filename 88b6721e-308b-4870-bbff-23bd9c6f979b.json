@@ -1,5 +1,5 @@
 {
-  "NodeType": "Revenue",
+  "NodeType": "88b6721e-308b-4870-bbff-23bd9c6f979b",
   "GeneratedContexts": [
     "Description",
     "Assets",
@@ -62,13 +62,13 @@
     {
       "Query": {
         "Type": "Expenses",
-        "SubTypes": [
-          "Cost of Goods Sold"
-        ],
+        "SubTypes": [],
         "Ids": [
           "$self"
         ],
-        "Filters": {}
+        "Filters": {
+          "__Cost of Goods Sold": true
+        }
       },
       "ContextKey": "value",
       "SaveTo": "value",
