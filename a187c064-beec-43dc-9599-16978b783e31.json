@@ -23,21 +23,6 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Equity",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
         "Type": "Assets",
         "SubTypes": [],
         "Ids": [
@@ -391,6 +376,21 @@
         "Filters": {
           "__Other Income": true
         }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Equity",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
       },
       "ContextKey": "value",
       "SaveTo": "value",
