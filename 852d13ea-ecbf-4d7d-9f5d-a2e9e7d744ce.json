@@ -26,6 +26,185 @@
   "AggregationQueries": [
     {
       "Query": {
+        "Type": "Income",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Other Income": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Income",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Other Income": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Equity",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Current Assets": null,
+          "__Non-Current Assets": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Accounts Receivable": null,
+          "__Cash": null,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Non-Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Accounts Receivable": true,
+          "__Current Assets": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Paypal": null,
+          "__Stripe": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Paypal": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Assets",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cash": true,
+          "__Current Assets": true,
+          "__Stripe": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
         "Type": "Liabilities",
         "SubTypes": [],
         "Ids": [
@@ -214,185 +393,6 @@
         "Filters": {
           "__Interest Paid": true,
           "__Other Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Other Income": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Other Income": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Equity",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Current Assets": null,
-          "__Non-Current Assets": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Accounts Receivable": null,
-          "__Cash": null,
-          "__Current Assets": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Non-Current Assets": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Accounts Receivable": true,
-          "__Current Assets": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cash": true,
-          "__Current Assets": true,
-          "__Paypal": null,
-          "__Stripe": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cash": true,
-          "__Current Assets": true,
-          "__Paypal": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Assets",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cash": true,
-          "__Current Assets": true,
-          "__Stripe": true
         }
       },
       "ContextKey": "value",
