@@ -57,7 +57,7 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "Customer",
+        "Type": "b2623ec6-3492-4fa0-9dcd-0150c3443cb0",
         "SubTypes": [],
         "Ids": [
           "$self"
@@ -72,7 +72,7 @@
     },
     {
       "Query": {
-        "Type": "Customer Churn",
+        "Type": "a0067e8c-6ea4-4864-8a7c-63a00127c126",
         "SubTypes": [],
         "Ids": [
           "$self"
