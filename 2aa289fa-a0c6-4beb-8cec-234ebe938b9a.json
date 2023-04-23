@@ -15,21 +15,5 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": [
-    {
-      "Query": {
-        "Type": "b2623ec6-3492-4fa0-9dcd-0150c3443cb0",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    }
-  ]
+  "AggregationQueries": []
 }

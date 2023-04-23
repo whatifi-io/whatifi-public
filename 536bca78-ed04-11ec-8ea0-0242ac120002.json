@@ -30,6 +30,182 @@
   "AggregationQueries": [
     {
       "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cost of Goods Sold": null,
+          "__Operating Expenses": null,
+          "__Other Expenses": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cost of Goods Sold": true,
+          "__Cost of Labor": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Employment Expenses": null,
+          "__Operating Expenses": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Interest Paid": null,
+          "__Other Expenses": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Cost of Goods Sold": true,
+          "__Cost of Labor": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Employment Expenses": true,
+          "__Operating Expenses": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Expenses",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Interest Paid": true,
+          "__Other Expenses": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Income",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Other Income": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Income",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__Other Income": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "Equity",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {}
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
         "Type": "Assets",
         "SubTypes": [],
         "Ids": [
@@ -222,182 +398,6 @@
           "__Accounts Payable": true,
           "__Current Liabilities": true
         }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cost of Goods Sold": null,
-          "__Operating Expenses": null,
-          "__Other Expenses": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cost of Goods Sold": true,
-          "__Cost of Labor": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Employment Expenses": null,
-          "__Operating Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Interest Paid": null,
-          "__Other Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Cost of Goods Sold": true,
-          "__Cost of Labor": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Employment Expenses": true,
-          "__Operating Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Expenses",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Interest Paid": true,
-          "__Other Expenses": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Other Income": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Income",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__Other Income": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "Equity",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {}
       },
       "ContextKey": "value",
       "SaveTo": "value",

@@ -16,58 +16,5 @@
     }
   ],
   "OptionalData": [],
-  "AggregationQueries": [
-    {
-      "Query": {
-        "Type": "db178274-8d95-4a6a-ae5c-46ae2fc356dd",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__7eb29f4d-d0ec-402e-a743-19797ebbd22b": null,
-          "__8a43fb3e-62f5-47d7-917f-3a042354cb11": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "db178274-8d95-4a6a-ae5c-46ae2fc356dd",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__8a43fb3e-62f5-47d7-917f-3a042354cb11": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "db178274-8d95-4a6a-ae5c-46ae2fc356dd",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__7eb29f4d-d0ec-402e-a743-19797ebbd22b": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    }
-  ]
+  "AggregationQueries": []
 }
