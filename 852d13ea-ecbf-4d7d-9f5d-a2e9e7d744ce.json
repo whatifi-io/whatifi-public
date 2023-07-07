@@ -26,6 +26,40 @@
   "AggregationQueries": [
     {
       "Query": {
+        "Type": "488dd61d-8697-4213-8978-cf91755365a4",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__8de6342e-813c-48c2-b269-c9150c80b6fa": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "488dd61d-8697-4213-8978-cf91755365a4",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__8de6342e-813c-48c2-b269-c9150c80b6fa": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
         "Type": "001a1288-cefb-4bcb-97ce-510b8a668a19",
         "SubTypes": [],
         "Ids": [
@@ -359,40 +393,6 @@
         "Filters": {
           "__4d3f10e5-42fd-4cae-b162-d91788f63b1e": true,
           "__a0001f6c-43a4-4556-8b06-ce18680d7d39": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "488dd61d-8697-4213-8978-cf91755365a4",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__8de6342e-813c-48c2-b269-c9150c80b6fa": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "488dd61d-8697-4213-8978-cf91755365a4",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__8de6342e-813c-48c2-b269-c9150c80b6fa": true
         }
       },
       "ContextKey": "value",
