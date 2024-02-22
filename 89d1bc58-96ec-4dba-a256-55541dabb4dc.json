@@ -20,77 +20,6 @@
   "AggregationQueries": [
     {
       "Query": {
-        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__644a46e7-ff42-46fa-96bb-d222d31dfa68": null,
-          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": true,
-          "__e5e301d8-1f6d-4ca4-b01d-ab4e2d658d36": null
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__644a46e7-ff42-46fa-96bb-d222d31dfa68": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
-        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
-        "SubTypes": [],
-        "Ids": [
-          "$self"
-        ],
-        "Filters": {
-          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": true,
-          "__e5e301d8-1f6d-4ca4-b01d-ab4e2d658d36": true
-        }
-      },
-      "ContextKey": "value",
-      "SaveTo": "value",
-      "Collate": false,
-      "KeepLatest": false,
-      "Multiplier": 0
-    },
-    {
-      "Query": {
         "Type": "7faf0285-78ca-411b-b875-d900929d7c94",
         "SubTypes": [],
         "Ids": [
@@ -387,6 +316,77 @@
           "__507f8682-dd54-477f-b35d-9062af491587": true,
           "__61f75c52-c089-4137-b424-e2f7bfc4d340": true,
           "__76919215-1601-4634-811f-54d3af8b8fa9": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__644a46e7-ff42-46fa-96bb-d222d31dfa68": null,
+          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": true,
+          "__e5e301d8-1f6d-4ca4-b01d-ab4e2d658d36": null
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__644a46e7-ff42-46fa-96bb-d222d31dfa68": true
+        }
+      },
+      "ContextKey": "value",
+      "SaveTo": "value",
+      "Collate": false,
+      "KeepLatest": false,
+      "Multiplier": 0
+    },
+    {
+      "Query": {
+        "Type": "6c9640aa-abf5-4f19-b135-356e183bcce6",
+        "SubTypes": [],
+        "Ids": [
+          "$self"
+        ],
+        "Filters": {
+          "__8eb1b8f0-6443-4163-905a-f5472a11dd27": true,
+          "__e5e301d8-1f6d-4ca4-b01d-ab4e2d658d36": true
         }
       },
       "ContextKey": "value",

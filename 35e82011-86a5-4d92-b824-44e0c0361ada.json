@@ -1,0 +1,24 @@
+{
+  "NodeType": "35e82011-86a5-4d92-b824-44e0c0361ada",
+  "GeneratedContexts": [
+    "Description",
+    "Assets",
+    "Liabilities",
+    "Equity",
+    "Income",
+    "Expenses"
+  ],
+  "RelevantContexts": [],
+  "RequiredData": [
+    {
+      "Key": "value",
+      "Display": "Value",
+      "Type": "float64",
+      "Values": [],
+      "Example": "Value of income; eg. 5000.00",
+      "CanModify": true
+    }
+  ],
+  "OptionalData": [],
+  "AggregationQueries": []
+}
